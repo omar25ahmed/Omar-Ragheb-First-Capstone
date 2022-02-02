@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 @import url('http://fonts.cdnfonts.com/css/cocogoose?styles=44178');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Recursive:wght@300&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -9,11 +10,9 @@
 body {
   /* font-family: 'Lato', sans-serif; */
   font-family: 'COCOGOOSE', sans-serif;
-  
 }
 
 .background {
-  background: #;
   position: absolute;
   top: 0;
   width: 100%;
@@ -24,10 +23,6 @@ body {
   height: 33px;
 }
 
-.showcase {
-
-}
-
 main {
   background-image: url(../images/olympic4.jpg);
   background-size: cover;
@@ -36,18 +31,18 @@ main {
 }
 
 .dark-overlay {
-  background: rgb(243,243,243,0.92);
+  background: rgb(243, 243, 243, 0.92);
   padding-top: 70px;
   padding-bottom: 70px;
 }
 
 .red {
-  color: #F2452C;
+  color: #f2452c;
   padding-bottom: 20px;
 }
 
 .description {
-  background: rgb(243,243,243);
+  background: rgb(243, 243, 243);
   border: 3px solid #fff;
   padding: 10px;
   font-family: 'Lato', sans-serif;
@@ -61,7 +56,7 @@ main {
 }
 
 .main-program {
-  background: rgb(39,43,48,0.9);
+  background: rgb(39, 43, 48, 0.9);
 }
 
 .card-bg {
@@ -71,8 +66,8 @@ main {
 .flex-box {
   display: flex;
   gap: 15px;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
 }
 
 .p-2 {
@@ -88,8 +83,8 @@ main {
 }
 
 .speakers {
-  background-color: #FFFEFE;
-  font-family: 'cursive';
+  background-color: #fffefe;
+  font-family: 'Recursive', sans-serif;
 }
 
 .card-right {
@@ -103,6 +98,7 @@ main {
 
 .card-border {
   border: none;
+
   /* margin: 0 10px 0 50px;
   width: 40%;
   padding-left: 0; */
@@ -110,23 +106,23 @@ main {
 
 .partner {
   background: #424146;
+  padding-bottom: 20px;
 }
 
 .partner h1 {
-  color: #FBFBFA;
-  font-family: 'cursive';
+  color: #fbfbfa;
+  font-family: 'Recursive', sans-serif;
 }
 
 footer {
-  font-family: 'cursive';
+  font-family: 'Recursive', sans-serif;
 }
 
 .footer-p {
   display: none;
 }
 
-@media (min-width:992px) {
-
+@media (min-width: 992px) {
   body::before {
     display: block;
     content: "";
@@ -134,9 +130,10 @@ footer {
   }
 
   .background {
-    background: #FFFEFE;
+    background: #fffefe;
     width: 100%;
   }
+
   .logo {
     width: 68px;
     height: 33px;
@@ -154,13 +151,13 @@ footer {
   .flex-box {
     display: flex;
     gap: 10px;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
   }
 
-  .c1:hover, .c2:hover, .c3:hover, .c4:hover, .c5:hover {
+  /* .c1:hover, .c2:hover, .c3:hover, .c4:hover, .c5:hover {
     border: 3px solid lightgrey;
-  }
+  } */
 
   .join {
     display: none;

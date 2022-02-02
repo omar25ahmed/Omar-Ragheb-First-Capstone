@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 @import url('http://fonts.cdnfonts.com/css/cocogoose?styles=44178');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Recursive:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -12,7 +13,6 @@ body {
 }
 
 .background {
-  background: #;
   position: absolute;
   top: 0;
   width: 100%;
@@ -30,7 +30,7 @@ body {
 }
 
 .description {
-  font-family: 'cursive';
+  font-family: 'Recursive', sans-serif;
   background: #fffefe;
   border: 3px solid lightgrey;
   padding: 10px 0;
@@ -42,7 +42,7 @@ body {
 }
 
 .contact-info {
-  font-family: 'cursive';
+  font-family: 'Recursive', sans-serif;
   font-size: 14px;
 }
 
@@ -64,7 +64,7 @@ body {
 .past h1 {
   padding: 20px 0 5px 0;
   font-size: larger;
-  font-family: 'cursive';
+  font-family: 'Recursive', sans-serif;
   font-weight: bold;
 }
 
@@ -101,11 +101,11 @@ body {
 
 .partner h1 {
   color: #fbfbfa;
-  font-family: 'cursive';
+  font-family: 'Recursive', sans-serif;
 }
 
 footer {
-  font-family: 'cursive';
+  font-family: 'Recursive', sans-serif;
   background: #fff;
 }
 
@@ -113,71 +113,65 @@ footer {
   display: none;
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   body {
     display: block;
     content: "";
     height: 60px;
-
   }
 
+  .background {
+    background: #fffefe;
+    width: 100%;
+  }
 
-.background {
-  background: #fffefe;
-  width: 100%;
-}
+  .logo {
+    width: 68px;
+    height: 33px;
+  }
 
-.logo {
-  width: 68px;
-  height: 33px;
+  .dark-overlay {
+    padding-top: 5%;
+    height: 80vh;
+  }
 
-}
+  .description {
+    width: 70%;
+    padding: 10px;
+  }
 
-.dark-overlay {
-  padding-top: 5%;
-  height: 80vh;
-}
+  .p-span {
+    display: block;
+  }
 
-.description {
-  width: 70%;
-  padding: 10px;
-}
+  .logo-history img {
+    width: 320px;
+  }
 
-.p-span {
-  display: block;
-}
+  .card-border {
+    border: none;
+    margin: 50px 10px 0 50px;
+    width: 30%;
+    padding-left: 0;
+    height: 300px;
+  }
 
-.logo-history img {
-  width: 320px;
-}
+  .past img {
+    height: 300px;
+    object-fit: cover;
+  }
 
-.card-border {
-  border: none;
+  .partner {
+    display: none;
+  }
 
-  margin: 50px 10px 0 50px;
-  width: 30%;
-  padding-left: 0;
-  height: 300px;
-}
+  footer {
+    font-family: 'Recursive', sans-serif;
+    background: #424146;
+    color: #fff;
+  }
 
-.past img {
-  height: 300px;
-  object-fit: cover;
-}
-
-.partner {
-  display: none;
-}
-
-footer {
-  font-family: 'cursive';
-  background: #424146;
-  color: #fff;
-}
-
-.footer-p {
-  display: block;
-}
-
-
+  .footer-p {
+    display: block;
+  }
 }
