@@ -1,16 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
 
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light py-3 fixed-md-top background">
+    <div class="container">
+      <a href="index.html" class="navbar-brand d-none d-sm-block">Frontend Bootcamp</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto text-danger">
+          <li class="nav-item">
+            <a href="#learn" class="nav-link text-danger pr-5">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#questions" class="nav-link">Program</a>
+          </li>
+          <li class="nav-item">
+            <a href="#instructors" class="nav-link">Join</a>
+          </li>
+          <li class="nav-item">
+            <a href="#instructors" class="nav-link">Sponsor</a>
+          </li>
+          <li class="nav-item">
+            <a href="#instructors" class="nav-link">Design</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="showcase">
+    <div class="dark-overlay">
+      <div class="container">
+        <small class="text-danger display-6">"Hello! Sharing world"</small>
+        <h1 class="text-danger display-3">CREATIVE COMMON <br> GLOBAL SUMMIT <br> 2015</h1>
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores. Minus saepe
+          fugiat provident at nesciunt aliquid illum, non hic.</p>
+        <p class="h3">2015.10.15(THU)-16(FRI) </p>
+        <p class="p-2"> @national museum of korea,Art center nabi and more</p>
+      </div>
+    </div>
+  </main>
+
+  <section id="main-program">
+    <div class="main-program container-fluid py-5">
+      <h1 class="text-light d-flex justify-content-center">Main Program</h1>
+      <hr class="text-danger m-auto my-3 w-25">
+
+      <div class="container-fluid">
+        <div class="row g-2">
+          <div class="col-md-2">
+            <div class="card card-bg">
+              <div class="card-body flex-box">
+                <i class="fad fa-keynote text-light flex-child fa-lg"></i>
+                <h5 class="card-title mb-md-5 text-danger">Lecture</h5>
+                <p class="card-text text-light flex-child p-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, facere?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card card-bg">
+              <div class="card-body flex-box">
+                <i class="far fa-tv text-light fa-lg"></i>
+                <h5 class="card-title mb-md-5 text-danger flex-child">Lecture</h5>
+                <p class="card-text text-light flex-child p-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, facere?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card card-bg">
+              <div class="card-body flex-box">
+                <i class="far fa-comments-alt text-light fa-lg"></i>
+                <h5 class="card-title mb-md-5 text-danger flex-child">Lecture</h5>
+                <p class="card-text text-light flex-child p-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, facere?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card card-bg">
+              <div class="card-body flex-box">
+                <i class="fas fa-chalkboard-teacher text-light fa-lg"></i>
+                <h5 class="card-title mb-md-5 text-danger flex-child">Lecture</h5>
+                <p class="card-text text-light flex-child p-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, facere?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card card-bg">
+              <div class="card-body flex-box">
+                <i class="fal fa-draw-circle text-light fa-lg"></i>
+                <h5 class="card-title mb-md-5 text-danger flex-child">Lecture</h5>
+                <p class="card-text text-light flex-child p-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, facere?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <button type="button" class="btn btn-danger mt-5 w-100 join">
+          Join CC Global Summit 2015
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="speakers mt-5">
+    <h3 class="text-dark d-flex justify-content-center">Featured speakers</h1>
+      <hr class="text-danger m-auto my-3 w-25">
+
+      <div class="container">
+        <div class="row mx-auto">
+          <div class="card mb-3 col-md-6 card-border">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="https://randomuser.me/api/portraits/men/11.jpg" class="img-fluid pt-5 rounded-start" alt="...">
+              </div>
+              <div class="col-8">
+                <div class="card-body card-right">
+                  <p class="card-title"><strong>Lionel Messi</strong></p>
+                  <p class="card-text text-danger p-text">Argentinian Football Player.</p>
+                  <hr class="text-dark my-1 w-25">
+                  <p class="card-text p-text">'Messi is one of the greatest players in the history and he is the most player that won ballon dor'.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 col-md-6 card-border">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="https://randomuser.me/api/portraits/men/11.jpg" class="img-fluid pt-5 rounded-start" alt="...">
+              </div>
+              <div class="col-8">
+                <div class="card-body card-right">
+                  <p class="card-title"><strong>Lionel Messi</strong></p>
+                  <p class="card-text text-danger p-text">Argentinian Football Player.</p>
+                  <hr class="text-dark my-1 w-25">
+                  <p class="card-text p-text">'Messi is one of the greatest players in the history and he is the most player that won ballon dor'.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 col-md-6 card-border">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="https://randomuser.me/api/portraits/men/11.jpg" class="img-fluid pt-5 rounded-start" alt="...">
+              </div>
+              <div class="col-8">
+                <div class="card-body card-right">
+                  <p class="card-title"><strong>Lionel Messi</strong></p>
+                  <p class="card-text text-danger p-text">Argentinian Football Player.</p>
+                  <hr class="text-dark my-1 w-25">
+                  <p class="card-text p-text">'Messi is one of the greatest players in the history and he is the most player that won ballon dor'.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 col-md-6 card-border">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="https://randomuser.me/api/portraits/men/11.jpg" class="img-fluid pt-5 rounded-start" alt="...">
+              </div>
+              <div class="col-8">
+                <div class="card-body card-right">
+                  <p class="card-title"><strong>Lionel Messi</strong></p>
+                  <p class="card-text text-danger p-text">Argentinian Football Player.</p>
+                  <hr class="text-dark my-1 w-25">
+                  <p class="card-text p-text">'Messi is one of the greatest players in the history and he is the most player that won ballon dor'.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 col-md-6 card-border">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="https://randomuser.me/api/portraits/men/11.jpg" class="img-fluid pt-5 rounded-start" alt="...">
+              </div>
+              <div class="col-8">
+                <div class="card-body card-right">
+                  <p class="card-title"><strong>Lionel Messi</strong></p>
+                  <p class="card-text text-danger p-text">Argentinian Football Player.</p>
+                  <hr class="text-dark my-1 w-25">
+                  <p class="card-text p-text">'Messi is one of the greatest players in the history and he is the most player that won ballon dor'.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 col-md-6 card-border">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="https://randomuser.me/api/portraits/men/11.jpg" class="img-fluid pt-5 rounded-start" alt="...">
+              </div>
+              <div class="col-8">
+                <div class="card-body card-right">
+                  <p class="card-title"><strong>Lionel Messi</strong></p>
+                  <p class="card-text text-danger p-text">Argentinian Football Player.</p>
+                  <hr class="text-dark my-1 w-25">
+                  <p class="card-text p-text">'Messi is one of the greatest players in the history and he is the most player that won ballon dor'.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+  </section>
+
+  <section class="partner">
+      <div class="pt-5">
+        <h1 class=" d-flex justify-content-center">Partner</h1>
+        <hr class="text-danger m-auto my-3 w-25">
+        <div class="container">
+          <div class="row align-items-center justify-content-center gx-5">
+            <div class="col-4 col-md-2">
+              <img src="images/partners/mozilla.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="images/partners/Google.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="images/partners/navar.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="images/partners/airbnb.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="images/partners/ebay.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      <div>
+  </section>
+
+  <footer>
+    <div class="container-fluid bg-light py-3">
+      <div class="row align-items-center justify-content-center">
+        <p class="h6 col-3"> My Logo</p>
+        <small class="col-8">&copy; Copyright 2022, Example Corporation</small>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="JS/app.js"></script>
 </body>
+
 </html>
