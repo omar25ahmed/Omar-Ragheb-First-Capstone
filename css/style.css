@@ -22,7 +22,6 @@ body {
 .logo {
   width: 68px;
   height: 33px;
-  background: #fff;
 }
 
 .showcase {
@@ -122,6 +121,10 @@ footer {
   font-family: 'cursive';
 }
 
+.footer-p {
+  display: none;
+}
+
 @media (min-width:992px) {
 
   body::before {
@@ -137,7 +140,6 @@ footer {
   .logo {
     width: 68px;
     height: 33px;
-    background: #fff;
   }
 
   .dark-overlay {
@@ -154,6 +156,10 @@ footer {
     gap: 10px;
     justify-content:center;
     align-items:center;
+  }
+
+  .c1:hover, .c2:hover, .c3:hover, .c4:hover, .c5:hover {
+    border: 3px solid lightgrey;
   }
 
   .join {
@@ -173,5 +179,9 @@ footer {
 
   .card-right {
     padding: 1rem 0 1rem 0;
+  }
+
+  .footer-p {
+    display: block;
   }
 }
