@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose?styles=44178');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.background {
+  background: #;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.showcase {
+  background: #F6F6F7;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.description {
+  font-family: 'cursive';
+  background: #FFFEFE;
+  border: 3px solid lightgrey;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.contact-info {
+  font-family: 'cursive';
+font-size: 14px;
+}
+
+.red {
+  color: #F2452C;
+  padding-bottom: 20px;
+}
+
+.global {
+  height:1px;
+  width: 50px;
+  color: #F2452C;
+  font-weight: bold;
+  border-top: 3px solid rgb(242,74,54);
+  margin:auto;
+}
+
+.logo-history h1, .past h1 {
+  padding: 20px 0 5px 0;
+  font-size: larger;
+  font-family: 'cursive';
+  font-weight: bold;
+}
+
+.past {
+  padding-bottom: 30px;
+}
+
+.bg {
+  background-color: rgba(242,74,54,0.7);
+}
+
+.card-border {
+  border: none;
+  /* margin: 50px 10px 0 50px;
+  width: 40%;
+  padding-left: 0;
+  height: 200px; */
+}
+
+/* .past img {
+  height: 200px;
+  object-fit: cover;
+} */
+
+.partner {
+  background: #424146;
+  padding-bottom: 20px;
+}
+
+.partner h1 {
+  color: #FBFBFA;
+  font-family: 'cursive';
+}
+
+footer {
+  font-family: 'cursive';
+}
