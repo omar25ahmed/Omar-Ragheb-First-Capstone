@@ -19,6 +19,12 @@ body {
   width: 100%;
 }
 
+.logo {
+  width: 68px;
+  height: 33px;
+  background: #fff;
+}
+
 .showcase {
 
 }
@@ -34,6 +40,11 @@ main {
   background: rgb(243,243,243,0.92);
   padding-top: 70px;
   padding-bottom: 70px;
+}
+
+.red {
+  color: #F2452C;
+  padding-bottom: 20px;
 }
 
 .description {
@@ -73,6 +84,10 @@ main {
   height: 70px;
 }
 
+.join-1 {
+  display: none;
+}
+
 .speakers {
   background-color: #FFFEFE;
   font-family: 'cursive';
@@ -105,4 +120,58 @@ main {
 
 footer {
   font-family: 'cursive';
+}
+
+@media (min-width:992px) {
+
+  body::before {
+    display: block;
+    content: "";
+    height: 60px;
+  }
+
+  .background {
+    background: #FFFEFE;
+    width: 100%;
+  }
+  .logo {
+    width: 68px;
+    height: 33px;
+    background: #fff;
+  }
+
+  .dark-overlay {
+    padding-left: 10%;
+    height: 80vh;
+  }
+
+  .description {
+    width: 50%;
+  }
+
+  .flex-box {
+    display: flex;
+    gap: 10px;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .join-1 {
+    display: block;
+  }
+
+  .card-border {
+    border: none;
+    margin: 0 10px 0 50px;
+    width: 40%;
+    padding-left: 0;
+  }
+
+  .card-right {
+    padding: 1rem 0 1rem 0;
+  }
 }
