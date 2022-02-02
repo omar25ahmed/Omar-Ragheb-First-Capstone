@@ -144,6 +144,12 @@ footer {
     display: block;
   }
 
+  .logo-history .p-span {
+    font-family: 'Recursive', sans-serif;
+    width: 70%;
+    margin: auto;
+  }
+
   .logo-history img {
     width: 320px;
   }
