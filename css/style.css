@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose?styles=44178');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'COCOGOOSE', sans-serif;
+  
+}
+
+.background {
+  background: #;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.showcase {
+
+}
+
+main {
+  background-image: url(../images/olympic2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.dark-overlay {
+  background: rgb(243,243,243,0.92);
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.description {
+  background: rgb(243,243,243);
+  border: 3px solid #fff;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+#main-program {
+  background-image: url('../images/background5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.main-program {
+  background: rgb(39,43,48,0.9);
+}
+
+.card-bg {
+  background-color: rgba(134, 139, 139, 0.2);
+}
+
+.flex-box {
+  display: flex;
+  gap: 15px;
+  justify-content:center;
+  align-items:center;
+}
+
+.p-2 {
+  font-family: 'Lato', sans-serif;
+}
+
+.join {
+  height: 70px;
+}
+
+.speakers {
+  background-color: #FFFEFE;
+  font-family: 'cursive';
+}
+
+.card-right {
+  padding: 1rem 0 1rem 1rem;
+}
+
+.p-text {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.card-border {
+  border: none;
+  /* margin: 0 10px 0 50px;
+  width: 40%;
+  padding-left: 0; */
+}
+
+.partner {
+  background: #424146;
+}
+
+.partner h1 {
+  color: #FBFBFA;
+  font-family: 'cursive';
+}
+
+footer {
+  font-family: 'cursive';
+}
