@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose?styles=44178');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Recursive:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  width: 68px;
+  height: 33px;
+}
+
+main {
+  background-image: url(../images/olympic4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.dark-overlay {
+  background: rgb(243, 243, 243, 0.92);
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.red {
+  color: #f2452c;
+  padding-bottom: 20px;
+}
+
+.description {
+  background: rgb(243, 243, 243);
+  border: 3px solid #fff;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+#main-program {
+  background-image: url('../images/background5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.main-program {
+  background: rgb(39, 43, 48, 0.9);
+}
+
+.card-bg {
+  background-color: rgba(134, 139, 139, 0.2);
+}
+
+.flex-box {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-2 {
+  font-family: 'Lato', sans-serif;
+}
+
+.join {
+  height: 70px;
+}
+
+.join-1 {
+  display: none;
+}
+
+.speakers {
+  background-color: #fffefe;
+  font-family: 'Recursive', sans-serif;
+}
+
+.card-right {
+  padding: 1rem 0 1rem 1rem;
+}
+
+.p-text {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.card-border {
+  border: none;
+}
+
+.partner {
+  background: #424146;
+  padding-bottom: 20px;
+}
+
+.partner h1 {
+  color: #fbfbfa;
+  font-family: 'Recursive', sans-serif;
+}
+
+footer {
+  font-family: 'Recursive', sans-serif;
+}
+
+.footer-p {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  body::before {
+    display: block;
+    content: "";
+    height: 60px;
+  }
+
+  .background {
+    background: #fffefe;
+    width: 100%;
+  }
+
+  .logo {
+    width: 68px;
+    height: 33px;
+  }
+
+  .dark-overlay {
+    padding-left: 10%;
+    height: 80vh;
+  }
+
+  .description {
+    width: 50%;
+  }
+
+  .flex-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .join-1 {
+    display: block;
+  }
+
+  .card-border {
+    border: none;
+    margin: 0 10px 0 50px;
+    width: 40%;
+    padding-left: 0;
+  }
+
+  .card-right {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .footer-p {
+    display: block;
+  }
+}
