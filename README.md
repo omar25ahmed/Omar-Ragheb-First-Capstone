@@ -33,7 +33,7 @@ This project is my first Captone and this is the first project to work on a proj
 **To Create A Portfolio from this Repository feel free to contact me.**
 
 **To get a local copy up and running follow these simple steps.**
-- you can clone this repo by typing `git clone git@github.com:omar25ahmed/Portfolio-setup-and-mobile-version-skeleton.git`.
+- you can clone this repo by typing `git clone git@github.com:omar25ahmed/Omar-Ragheb-First-Capstone`.
 - type `cd Portfolio-setup-and-mobile-version-skeleton` to access the project on terminal.
 
 ## Authors
@@ -55,6 +55,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Cindy Shin's design
+- SciComm [Link](https://www.scicommcon.org/)
+- Aspen Global Congress on Scientific Thinking & Action [Link](https://www.aspeninstitute.org/programs/science-society/global-science-congress/)
 - Microverse Team
 
 ## 📝 License
@@ -63,5 +66,3 @@ This project is [MIT](./MIT.md) licensed.
 
 - GitHub: [@omar25ahmed](https://github.com/omar25ahmed)
 
-# Portfolio-setup-and-mobile-version-skeleton
-# Fitting-screen

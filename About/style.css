@@ -8,7 +8,6 @@
 }
 
 body {
-  /* font-family: 'Lato', sans-serif; */
   font-family: 'COCOGOOSE', sans-serif;
 }
 
@@ -82,17 +81,7 @@ body {
 
 .card-border {
   border: none;
-
-  /* margin: 50px 10px 0 50px;
-  width: 40%;
-  padding-left: 0;
-  height: 200px; */
 }
-
-/* .past img {
-  height: 200px;
-  object-fit: cover;
-} */
 
 .partner {
   background: #424146;

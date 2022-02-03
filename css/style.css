@@ -8,7 +8,6 @@
 }
 
 body {
-  /* font-family: 'Lato', sans-serif; */
   font-family: 'COCOGOOSE', sans-serif;
 }
 
@@ -98,10 +97,6 @@ main {
 
 .card-border {
   border: none;
-
-  /* margin: 0 10px 0 50px;
-  width: 40%;
-  padding-left: 0; */
 }
 
 .partner {
@@ -154,10 +149,6 @@ footer {
     justify-content: center;
     align-items: center;
   }
-
-  /* .c1:hover, .c2:hover, .c3:hover, .c4:hover, .c5:hover {
-    border: 3px solid lightgrey;
-  } */
 
   .join {
     display: none;
